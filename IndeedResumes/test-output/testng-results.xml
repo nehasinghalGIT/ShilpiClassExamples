@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1642413" started-at="2013-05-05T22:27:53Z" finished-at="2013-05-05T22:55:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1642413" started-at="2013-05-05T22:27:53Z" finished-at="2013-05-05T22:55:15Z">
+      <class name="com.indeed.main.TestIndeedSearchPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.indeed.main.TestIndeedSearchPage@5e785d65]" name="openBrowser" is-config="true" duration-ms="2191" started-at="2013-05-05T15:27:53Z" finished-at="2013-05-05T15:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.indeed.main.TestIndeedSearchPage@5e785d65]" name="openBrowser" is-config="true" duration-ms="2518" started-at="2013-05-05T15:27:53Z" finished-at="2013-05-05T15:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTC1(java.util.List)[pri:0, instance:com.indeed.main.TestIndeedSearchPage@5e785d65]" name="testTC1" duration-ms="1280225" started-at="2013-05-05T15:27:55Z" data-provider="failedKeywords" finished-at="2013-05-05T15:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Quality Center]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC1 -->
+        <test-method status="PASS" signature="testTC1(java.util.List)[pri:0, instance:com.indeed.main.TestIndeedSearchPage@5e785d65]" name="testTC1" duration-ms="1639873" started-at="2013-05-05T15:27:55Z" data-provider="failedKeywords" finished-at="2013-05-05T15:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[QA Lead]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC1 -->
+      </class> <!-- com.indeed.main.TestIndeedSearchPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
